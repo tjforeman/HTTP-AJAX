@@ -7,7 +7,7 @@ const FriendsList = props => {
         <div className='friends-list'>
         {props.friend.map(friend => (
         <div className="friend-card" key={friend.id}>
-            <p>Name: {friend.name}</p>
+            <h2> {friend.name}</h2>
             <p>Age: {friend.age}</p>
             <p>Email: {friend.email}</p>
             <button onClick={() => props.deleteFriend(friend.id)}>Delete Friend</button>

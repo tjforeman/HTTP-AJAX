@@ -9,3 +9,16 @@ margin-bottom:20px;
 padding-bottom:20px;
 margin-left:40%;
 }
+.friend-form{
+  border:1px solid lightgray;
+  display:flex;
+  flex-direction:column;
+  width:16%;
+  margin-left:42%;
+  margin-bottom:30px;
+  padding-bottom:15px;
+}
+input{
+  margin-bottom:20px;
+  text-align:center;
+}
